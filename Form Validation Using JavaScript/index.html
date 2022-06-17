@@ -8,14 +8,29 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div id="outer">
-        <h2>LOGIN</h2>
-        <label for="name"><i class="fa-solid fa-id-badge"></i></label>
-        <input type="text" id="name" placeholder="Name"> <br><br>
-        <input type="email" id="email" placeholder="Email"> <br><br>
-        <input type="text" id="number" placeholder="Phone Number"><br><br>
-        <H1>hELLO WORLD</H1>
-        
+    <div id="parent">
+        <div id="child1">
+            
+        </div>
+
+        <div id="outer">
+            <form >
+                <h2>LOGIN</h2>
+                <input type="text" id="name" placeholder="Name" maxlength="20"> <br><br>
+                <input type="number" id="number" placeholder="Phone Number""><br><br>
+                <input type="number"id ="cnic" placeholder="CNIC"><br><br>
+                <input type="email" id="email" placeholder="Email"> <br><br>
+                <input type="password" id="password" placeholder="Password"> <br><br>
+                <input type="password" id="confirmpassword" placeholder="Confirm Password"><br><br>
+                <input type="number" id="age" placeholder="Age"> <br><br>
+                <label> Gender : </label>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="same">
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="same"><br><br>
+                <button id="btn">LOGIN</button>
+            </form>    
+        </div>
     </div>
 
 
