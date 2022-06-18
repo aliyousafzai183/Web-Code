@@ -12,21 +12,53 @@
         <div id="child1"></div>
 
         <div id="outer">
-            <form >
-                <h2>LOGIN</h2>
-                <input type="text" id="name" placeholder="Name" maxlength="20"> <br><br>
-                <input type="number" id="number" placeholder="Phone Number""><br><br>
-                <input type="number"id ="cnic" placeholder="CNIC"><br><br>
-                <input type="email" id="email" placeholder="Email"> <br><br>
-                <input type="password" id="password" placeholder="Password"> <br><br>
-                <input type="password" id="confirmpassword" placeholder="Confirm Password"><br><br>
-                <input type="number" id="age" placeholder="Age"> <br><br>
-                <label> Gender : </label>
-                <label for="male">Male</label>
-                <input type="radio" id="male" name="same">
-                <label for="female">Female</label>
-                <input type="radio" id="female" name="same"><br><br>
-                <button id="btn">LOGIN</button>
+            <h2>LOGIN</h2>
+            <form>
+                <div class="inputdiv">
+                    <input type="text" id="name" placeholder="Name" maxlength="20">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-exclamation"></i> <br>
+                    <small id="nameError"></small>
+                </div>
+                <div class="inputdiv">
+                    <input type="number" id="number" placeholder="Phone Number"">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-exclamation"></i><br>
+                    <small></small>
+                </div>
+                <div class="inputdiv">
+                    <input type="number"id ="cnic" placeholder="CNIC">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-exclamation"></i><br>
+                    <small></small>
+                </div>
+                <div class="inputdiv">
+                    <input type="email" id="email" placeholder="Email">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-exclamation"></i><br>
+                    <small></small>
+                </div>
+                <div class="inputdiv">
+                    <input type="password" id="confirmpassword" placeholder="Confirm Password">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-exclamation"></i><br>
+                    <small></small>
+                </div>
+                <div class="inputdiv">
+                    <input type="number" id="age" placeholder="Age">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-exclamation"></i><br>
+                    <small></small>
+                </div>
+                <div class="inputdiv">
+                    <label> Gender : </label>
+                    <label for="male">Male</label>
+                    <input type="radio" id="male" name="same">
+                    <label for="female">Female</label>
+                    <input type="radio" id="female" name="same"><br>
+                    <small></small>
+                </div>
+                <button id="btn" onclick="operations()">LOGIN</button>
             </form>    
         </div>
     </div>
@@ -34,5 +66,6 @@
 
 
     <script src="./code.Js"></script>
+    <!-- <script src="https://kit.fontawesome.com/fd6167cfe6.js" crossorigin="anonymous"></script> -->
 </body>
 </html>
