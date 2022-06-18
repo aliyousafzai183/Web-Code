@@ -1,8 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
   background-image: url(./backgroundimg.jpg); 
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 
 #parent{
@@ -63,15 +66,17 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-#btn{
-    margin-top: 20px;
+button{
+    visibility: visible;
+    color: white;
     padding:5px 10px;
     border: none;
     border-radius: 3%;
-    color: rgb(233, 95, 95);
-    background-color: rgb(0, 242, 255);
-    font-size: 15px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    background-color: rgba(0, 0, 0, 0.662);
+}
+
+button:hover{
+    background-color: rgb(0, 0, 0);
 }
 
 .errormessage{
@@ -81,3 +86,16 @@ input::-webkit-inner-spin-button {
 .inputdiv{
     height: 50px;
 }
+
+small{
+    color: red;
+}
+
+i{
+    color: beige;
+    visibility: hidden;
+}
+
+
+
+
