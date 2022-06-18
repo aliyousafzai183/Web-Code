@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation Using Js</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="parent">
+        <div id="child1"></div>
+
+        <div id="outer">
+            <h2>SIGNUP</h2>
+            <form>
+                <div class="inputdiv">
+                    <input type="text" id="name" placeholder="Name" maxlength="20">
+                    <i class="fa-solid fa-circle-check" id="correct1" class = "correct"></i>
+                    <i class="fa-solid fa-exclamation" id="incorrect1" class = "incorrect"></i> <br>
+                    <small id="nameError"></small>
+                </div>
+                <div class="inputdiv">
+                    <input type="number" id="number" placeholder="Phone Number"">
+                    <i class="fa-solid fa-circle-check" id="correct2" class = "correct"></i>
+                    <i class="fa-solid fa-exclamation" id="incorrect2" class = "incorrect"></i><br>
+                    <small id="phError"></small>
+                </div>
+                <div class="inputdiv">
+                    <input type="email" id="email" placeholder="Email">
+                    <i class="fa-solid fa-circle-check" id="correct3" class = "correct"></i>
+                    <i class="fa-solid fa-exclamation" id="incorrect3" class = "incorrect"></i><br>
+                    <small id="emailError"></small>
+                </div>
+                <div class="inputdiv">
+                    <input type="password" id="password" placeholder="Password">
+                    <i class="fa-solid fa-circle-check"  id="correct4" class = "correct"></i>
+                    <i class="fa-solid fa-exclamation" id="incorrect4" class = "incorrect"></i><br>
+                    <small id="passError"></small>
+                </div>
+                <div class="inputdiv">
+                    <input type="password" id="confirmPassword" placeholder="Confirm Password">
+                    <i class="fa-solid fa-circle-check" id="correct5" class = "correct"></i>
+                    <i class="fa-solid fa-exclamation" id="incorrect5" class = "incorrect"></i><br>
+                    <small id="five"></small>
+                </div>
+                <div class="inputdiv">
+                    <input type="number" id="age" placeholder="Age">
+                    <i class="fa-solid fa-circle-check" id="correct6" class = "correct"></i>
+                    <i class="fa-solid fa-exclamation" id="incorrect6" class = "incorrect"></i><br>
+                    <small id="six"></small>
+                </div>
+                <div class="inputdiv">
+                    <label> Gender : </label>
+                    <label for="male">Male</label>
+                    <input type="radio" id="male" name="same">
+                    <label for="female">Female</label>
+                    <input type="radio" id="female" name="same"><br>
+                    <small id="seven"></small>
+                </div>
+            </form>    
+            <button id="btn" onclick="window.location.href = 'ok.html'">SignUp</button>
+        </div>
+    </div>
+
+
+
+    <script src="./code.Js"></script>
+    <script src="https://kit.fontawesome.com/fd6167cfe6.js" crossorigin="anonymous"></script>
+</body>
+</html>
