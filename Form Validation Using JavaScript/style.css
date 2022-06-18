@@ -67,11 +67,17 @@ input::-webkit-inner-spin-button {
 }
 
 button{
-    visibility: visible;
     color: white;
     padding:5px 10px;
     border: none;
     border-radius: 3%;
+    background-color: rgba(0, 0, 0, 0.662);
+}
+
+a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
     background-color: rgba(0, 0, 0, 0.662);
 }
 
@@ -95,7 +101,3 @@ i{
     color: beige;
     visibility: hidden;
 }
-
-
-
-
