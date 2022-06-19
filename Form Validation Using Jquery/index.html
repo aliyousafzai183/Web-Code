@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Validation Using Js</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
 </head>
 <body>
     <div id="parent">
@@ -13,7 +16,7 @@
 
         <div id="outer">
             <h2>SIGNUP</h2>
-            <form>
+            <form id="form">
                 <div class="inputdiv">
                     <input type="text" id="name" placeholder="Name" maxlength="20">
                     <i class="fa-solid fa-circle-check" id="correct1" class = "correct"></i>
@@ -59,7 +62,7 @@
                     <small id="seven"></small>
                 </div>
             </form>    
-            <button id="btn" onclick="window.location.href = 'ok.html'">SignUp</button>
+            <button id="btn">SignUp</button>
         </div>
     </div>
 
