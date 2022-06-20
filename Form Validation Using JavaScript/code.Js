@@ -162,10 +162,6 @@ function validateGender(male , female){
 // intervalid = setInterval(values,1000);
 setInterval(values,1000);
 
-function display(){
-    alert("Signed Up Successfully!");
-}
-
 
 
 
